@@ -1,0 +1,70 @@
+body{
+    color: rgb(20, 21, 21);
+    overflow-x: hidden; /*NÃO APAGUE POR FAVOR ISSO SALVA A PAGINA ARTIGOS*/
+    overflow-x: clip !important;
+}
+h1{
+    border: solid 5px;
+    border-radius: 25px;
+    /* border-color: rgb(20, 21, 21); */
+    border-color: rgb(9, 9, 80);
+}
+h2{
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+h4{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+.coluna{
+    width: 33.333%;
+    text-align: justify;
+    float: left;
+    padding: 40px;
+}
+.titulo {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row:after {
+    content: "";
+    display: flex;
+    clear: both;
+    
+}
+#texto_medalhistas {
+    color: hsl(65, 58%, 40%);
+}
+#hyperlink {
+    color: hsl(133, 55%, 65%);
+}
+.imagens_medalhistas {
+    width: 50em;
+}
+.imagens_tutor{
+    width: 50em;
+}
+.imagens_onc{
+    width: 50em;
+}
+.imagens_oba{
+    width: 50em;
+}
+.imagens_obg{
+    width: 50em;
+}
+.imagens_toefl{
+    width: 50em;
+}
+.imagens_obmep_mirim{
+    width: 50em;
+}
+.patrocinadores{
+    width: 1200px;
+}
