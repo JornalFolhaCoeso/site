@@ -17,7 +17,11 @@ h3{
     text-align: justify;
     font-family: 'Times New Roman', Times, serif;
 }
-h4{
+/* h4{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+} */
+h6{
     text-align: justify;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -36,35 +40,47 @@ h4{
     content: "";
     display: flex;
     clear: both;
-    
+}
+.imagens_mesa {
+    width: 35em;
+}
+.imagens_canguru{
+    width: 45em;
+}
+.imagens_tutor{
+    width: 45em;
+}
+#toefl1{
+    width: 40em;
+}
+#toefl2{
+    width: 45em;
+}
+.imagens_onc{
+    width: 45em;
+}
+.imagens_oba{
+    width: 45em;
+}
+.imagens_obg{
+    width: 45em;
+}
+.imagens_obmep_mirim{
+    width: 40em;
+}
+.imagens_sos{
+    width: 45em;
+}
+.patrocinadores{
+    width: 1200px;
+}
+.creditos{
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
 }
 #texto_medalhistas {
     color: hsl(65, 58%, 40%);
 }
 #hyperlink {
     color: hsl(133, 55%, 65%);
-}
-.imagens_medalhistas {
-    width: 50em;
-}
-.imagens_tutor{
-    width: 50em;
-}
-.imagens_onc{
-    width: 50em;
-}
-.imagens_oba{
-    width: 50em;
-}
-.imagens_obg{
-    width: 50em;
-}
-.imagens_toefl{
-    width: 50em;
-}
-.imagens_obmep_mirim{
-    width: 50em;
-}
-.patrocinadores{
-    width: 1200px;
 }
