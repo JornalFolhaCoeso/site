@@ -1,117 +1,119 @@
-<!DOCTYPE html>  
-<html lang="pt-br">  
-<head>  
-   <meta charset="UTF-8">  
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-   <title>Folha Coeso</title>  
-   <link rel="stylesheet" href="static/estilos.css"> <!-- Link para o seu arquivo CSS -->  
-   <link rel="icon" type="image/x-icon" href="imagens/logos/logo_coeso.ico"> <!-- Link para o ícone do site -->  
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"> <!-- Link para o Bootstrap -->  
-   <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script> <!-- Link para o jQuery -->  
-   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script> <!-- Link para o Popper.js -->  
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script> <!-- Link para o JavaScript do Bootstrap -->  
-   <style>  
-      body {  
-        display: flex;  
-        flex-direction: column;  
-        min-height: 100vh;  
-        margin: 0;  
-      }  
-      .content {  
-        flex: 1;  
-      }  
-      footer {  
-        background-color: #ffffff; /* bg */  
-        color: white;  
-        text-align: center;  
-        padding: 15px 0;  
-        width: 100%;  
-      }  
-      footer img {  
-        width: 821px; /* Ajuste o tamanho máximo da imagem */  
-        height: 500px;  
-      }  
-      footer .container {  
-        text-align: center;  
-      }  
-   </style>  
-</head>  
-<body>  
-   <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">  
-      <!-- Brand/logo -->  
-      <a class="navbar-brand" href="index.html">  
-        <img src="imagens/logos/logo_coeso.png" alt="logo" width="40px">  
-      </a>  
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Folha Coeso</title>
+   <link rel="stylesheet" href="static/estilos.css"> <!-- Link para o seu arquivo CSS -->
+   <link rel="icon" type="image/x-icon" href="imagens/logos/logo_coeso.ico"> <!-- Link para o ícone do site -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"> <!-- Link para o Bootstrap -->
+   <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script> <!-- Link para o jQuery -->
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script> <!-- Link para o Popper.js -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script> <!-- Link para o JavaScript do Bootstrap -->
+   <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        margin: 0;
+      }
+      .content {
+        flex: 1;
+      }
+      footer {
+        background-color: #ffffff; /* bg */
+        color: black; /* Mudado para preto para contraste adequado */
+        text-align: center;
+        padding: 15px 0;
+        width: 100%;
+      }
+      footer img {
+        max-width: 100%; /* Ajuste o tamanho da imagem para responsividade */
+        height: auto; /* Mantém a proporção da imagem */
+      }
+      .navbar-brand img {
+        width: 40px;
+      }
+      .header-image {
+        width: 100%;
+        max-width: 50%;
+        height: auto;
+      }
+      .titulo h2 {
+        font-size: 1.5rem;
+      }
+      @media (max-width: 767px) {
+        .titulo h2 {
+          font-size: 1.2rem;
+        }
+      }
+   </style>
+</head>
+<body>
+   <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <!-- Brand/logo -->
+      <a class="navbar-brand" href="index.html">
+        <img src="imagens/logos/logo_coeso.png" alt="logo">
+      </a>
        
-      <!-- Links -->  
-      <ul class="navbar-nav">  
-        <li class="nav-item">  
-           <a class="nav-link" href="Entrevistas.html">Entrevistas</a>  
-        </li>  
-        <li class="nav-item">  
-           <a class="nav-link" href="Artigos.html">Artigos</a>  
-        </li>  
-        <li class="nav-item">  
-           <a class="nav-link" href="entretenimento.html">Entretenimento</a>  
-        </li>  
-      </ul>  
-   </nav>  
-  
-   <header class="mt-5 pt-5">  
-      <div class="container text-center">  
-        <h1>  
-           <center>
-           <img src="imagens/titulos/In%C3%ADcio.png" alt="index título" width="50%">  
-           </center>
-        </h1>  
-        <p>  
+      <!-- Links -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+           <a class="nav-link" href="Entrevistas.html">Entrevistas</a>
+        </li>
+        <li class="nav-item">
+           <a class="nav-link" href="Artigos.html">Artigos</a>
+        </li>
+        <li class="nav-item">
+           <a class="nav-link" href="entretenimento.html">Entretenimento</a>
+        </li>
+      </ul>
+   </nav>
 
-           <div class="titulo">
-  <h2>Colégio Coeso, a fonte do saber pleno: De portas abertas para o futuro</h2>
-</div>
-<hr>
-<div class="row">
-  <div class="col-md-6 d-flex">
-    <div class="p-3 flex-fill">
-      <p>
-        Sonhar, acreditar, trabalhar e confiar são as ferramentas mais sólidas para alcançar o sucesso desejado na vida de qualquer pessoa. Sem um sonho, não nos motivamos a traçar estratégias de trabalho que garantam nossas realizações pessoais e profissionais.
-      </p>
-      <p>
-        Desde cedo, somos orientados a fazer escolhas que nos trarão estabilidade, reconhecimento e conforto; e é nesse momento que escolhemos nossa profissão e desenhamos o caminho que trilharemos como cidadãos sociais. Ao longo de nossas vidas, cada um percorre seu caminho e colhe os frutos que plantou, sejam eles bons ou ruins, de acordo com seu esforço. É o que acontece com a fundadora do Colégio Arte & Manhã Coeso: Cenira Lujan. O que um dia foi um sonho, agora é uma realidade bem-sucedida e concreta.
-      </p>
-      <p>
-        Uma mulher que ousou sonhar, não só com uma profissão que trouxesse a ela estabilidade, segurança e reconhecimento, mas que construísse um legado e que servisse à sociedade, contribuindo para a construção da cidadania, da responsabilidade individual e coletiva. Assim, o Colégio Coeso não é apenas mais um colégio entre tantos, mas sim um colégio inovador que visa sempre o desenvolvimento do conhecimento através de ferramentas tecnológicas e novas metodologias estudadas por ela em várias partes do mundo.
-      </p>
-    </div>
-  </div>
-  <div class="col-md-6 d-flex">
-    <div class="p-3 flex-fill">
-      <p>
-        Preocupando-se com o protagonismo do aluno, incentivado por professores aptos que preparam os alunos, desde os anos mais jovens até aqueles que estão na idade de fazer suas próprias escolhas. Este é o Colégio Coeso. Hoje, uma referência em educação, graças aos sonhos e ao trabalho de todos, estamos colhendo o sucesso conquistado ao longo de 31 anos.
-      </p>
-      <p>
-        Alunos olímpicos são destaque na rotina escolar do Colégio. Participam das…
-      </p>
-    </div>
-  </div>
-</div>
+   <header class="mt-5 pt-5">
+      <div class="container text-center">
+        <h1>
+          <img src="imagens/titulos/In%C3%ADcio.png" alt="index título" class="header-image">
+        </h1>
+        <div class="titulo">
+          <h2>Colocar a reportagem da helena aqui </h2>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-md-6 d-flex">
+            <div class="p-3 flex-fill">
+              <p>
+                -----texto---------
+              </p>
+              <p>
+                -----texto---------
+              </p>
+              <p>
+               -----texto---------
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex">
+            <div class="p-3 flex-fill">
+              <p>
+               -----texto---------
+              </p>
+              <p>
+                -----texto---------
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+   </header>
 
+   <main class="content">
+      <!-- Seu conteúdo principal vai aqui -->
+   </main>
 
-
-
-
-           
-        </p>  
-      </div>  
-   </header>  
-  
-   <main class="content">  
-      <!-- Seu conteúdo principal vai aqui -->  
-   </main>  
-  
    <footer class="bg-light text-white text-center py-3">
         <p>&copy; 2024 Folha Coeso. Todos os direitos reservados.</p>
-        <a href="#ffffff"><img src="imagens/patrocinios/logos em png e reduzidas (1).png" alt="Patrocinador 1" height="100%" width="100%"></a>
-    </footer> 
-</body>  
+        <a href="#top"><img src="imagens/patrocinios/logos em png e reduzidas (1).png" alt="Patrocinador 1"></a>
+   </footer>
+</body>
 </html>
