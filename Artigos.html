@@ -10,199 +10,162 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
     <title>Artigos</title>
+    <style>
+        body {
+            margin-top: 56px; /* Ajusta o espaço para a navbar fixa */
+        }
+        .titulo {
+            margin: 20px 0;
+        }
+        .titulo h2 {
+            font-size: 1.5rem;
+        }
+        .creditos {
+            font-style: italic;
+            margin: 20px 0;
+        }
+        footer img {
+            max-width: 100%;
+            height: auto;
+        }
+        .coluna {
+            margin-bottom: 20px;
+        }
+        .container {
+            padding: 15px;
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
         <a class="navbar-brand" href="index.html">
-          <img src="imagens/logos/logo_coeso.png" alt="Logo do Colégio Coeso" style="width: 40px;">
+            <img src="imagens/logos/logo_coeso.png" alt="Logo do Colégio Coeso" style="width: 40px;">
         </a>
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="Entrevistas.html">Entrevistas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Artigos.html">Artigos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="entretenimento.html">Entretenimento</a>
-          </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Entrevistas.html">Entrevistas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Artigos.html">Artigos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="entretenimento.html">Entretenimento</a>
+            </li>
         </ul>
-      </nav>
+    </nav>
 
-      <main>
-        <br><br><br>
-        <center>
-          <h1>
-            <img src="imagens/titulos/artigos_titulo.png" alt="Título de Artigos">
-          </h1>
-        </center>
-<br>
-<br>
-       <div class="titulo">
-  <h2>Banho de vida nas gerações futuras</h2>
-</div>
-<hr>
-<div class="row">
-  <div class="col-md-4 d-flex">
-    <div class="p-3 flex-fill">
-      <p>
-        &ensp;Os alunos do primeiro ano do Colégio Arte & Manha Coeso, sob a orientação das professoras Maria Cacilda e Tairine, irão expor na mostra cultural o funcionamento da vida na água e seus princípios. Eles vão falar também sobre o livro, O Banho de Cores, escrito por Jonas Ribeiro. As professoras aproveitaram a relação entre o uso consciente da água no banho e o banho de sentimentos proposto no livro para fazer uma reflexão sobre o fato de existir vida na água, mas não existir vida sem água. É a partir daqui que os alunos tiveram a oportunidade de conhecer e reconhecer as potencialidades e características das fontes diversas de água, seus benefícios e principalmente os malefícios da não preservação a curto, médio e longo prazo.
-      </p>
-    </div>
-  </div>
-  <div class="col-md-4 d-flex">
-    <div class="p-3 flex-fill">
-      <p>
-        A vida aquática abriga mais de um milhão de espécies marinhas que fornecem mais da metade do nosso oxigênio, nos dão energia e alimento. 
-        Os riachos são pequenos cursos d'água naturais, menores que rios em extensão e quantidade hídrica, mas não se engane pela aparência, pois desempenham um papel vital dentro dos ecossistemas.
-        Isso porque, além de servir como habitat para variadas formas de vida aquática, influenciando a biodiversidade e a manutenção da saúde do ambiente ao redor, possibilitam drenagem correta das águas pluviais, transportando-as para os rios e mares.
-        Assim como rios, eles podem ser perenes ou intermitentes, ou seja, fluem durante todo ano ou secam ou congelam, mas é comum que tenham seu fluxo interrompido durante estações específicas.
-      </p>
-    </div>
-  </div>
-  <div class="col-md-4 d-flex">
-    <div class="p-3 flex-fill">
-      <p>
-        Os mares abrigam muitos animais e são tão grandes e necessários como os oceanos. Muitas espécies aquáticas evoluíram ao longo dos séculos, conseguindo se adaptar às transformações climáticas. Um exemplo de sobrevivente é o tubarão, que surgiu há cerca de 450 milhões de anos e já escaparam de cinco grandes extinções em massa. 
-        Atualmente algumas espécies de tubarão enfrentam ameaças que colocam em risco seu futuro evolutivo, diminuindo, drasticamente, sua população. 
-        A superexploração pesqueira afeta sua diversidade genética e, consequentemente, sua capacidade de adaptação, tornando incerta sua permanência nos mares ao longo do século XXI. 
-        Essas são as principais conclusões de um artigo publicado em setembro na revista científica Aquatic Conservation: Marine and Freshwater Ecosystems.
-        É difícil entender que não estamos fazendo o suficiente para preservar nossas nascentes. O equilíbrio da vida depende de atitudes drásticas, que impactem agora a biodiversidade, podendo assim, mantermos, através dos cursos d’água, a conexão entre, pessoas, natureza, cidades, economia, histórias, garantindo um futuro longo para as próximas gerações.
-      </p>
-    </div>
-  </div>
-</div>
+    <main class="container mt-5 pt-3">
+        <div class="text-center">
+            <h1>
+                <img src="imagens/titulos/artigos_titulo.png" alt="Título de Artigos" class="img-fluid">
+            </h1>
+        </div>
+
+        <div class="titulo">
+            <h2>Banho de vida nas gerações futuras</h2>
+        </div>
+        <hr>
+
+        <div class="row">
+            <div class="col-md-4">
+                <p>
+                    &ensp;Os alunos do primeiro ano do Colégio Arte & Manha Coeso, sob a orientação das professoras Maria Cacilda e Tairine, irão expor na mostra cultural o funcionamento da vida na água e seus princípios...
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    A vida aquática abriga mais de um milhão de espécies marinhas que fornecem mais da metade do nosso oxigênio...
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    Os mares abrigam muitos animais e são tão grandes e necessários como os oceanos...
+                </p>
+            </div>
+        </div>
         <h6 class="creditos">Créditos: Beatriz Morikawa, Letícia Passarini, Maria Fernanda Nagamine e Maria Fernanda Rodrigues.</h6>
-<br>
         <hr>
 
         <div class="titulo">
-        <h2>
-          Você lida com dinheiro de forma segura e responsável?
-        </h2>
-      </div>
-<hr>
-<div class="row">
-  <div class="col-md-4 d-flex">
-    <div class="p-3 flex-fill">
-      <p>
-        Com a tecnologia avançada nos dias de hoje, ficou muito mais fácil realizar um pagamento, por exemplo, abrir uma conta em um banco virtual, programar outras transações pelos aplicativos de cartões. E por falar neles, agora não é necessário nem inseri-lo, é só aproximá-lo e pronto. Tudo feito, fácil e rápido, assim como o cotidiano exige. Praticidade que gera comodidade e conforto.
-      </p>
-      <p>
-        Muito diferente de antes, o povo brasileiro, por exemplo, fazia uso de cédulas, cheques ou boletos como forma de pagamento ou recebimento. Depois vieram os cartões de débito ou crédito, o que já funcionou como forma de agilizar as operações que envolviam valores monetários. O dia 5 de outubro de 2020 marca o início de uma nova forma de fazer negociações, o Pix, que teve seu início oficial e integral em 16 de novembro do mesmo ano. Ferramenta que começou a ser usada por muitas pessoas no Brasil inteiro, deixando o dinheiro “vivo” como terceira opção.
-      </p>
-    </div>
-  </div>
-  <div class="col-md-4 d-flex">
-    <div class="p-3 flex-fill">
-      <p>
-        No Colégio Coeso, os alunos do 2º ano do fundamental I, juntamente com suas professoras Flávia e Vanessa, pensaram em um projeto sobre economia. A principal pergunta lançada foi: “Para que serve o dinheiro?". Responder a esta pergunta não é uma tarefa fácil para nós brasileiros, já que a maioria da população não recebe educação financeira. Isso leva muitas pessoas ao endividamento, à perda de bens em situações mais graves e ao consumo desenfreado, que é um dos motivos do aumento gradativo da poluição e contaminação de fontes de água no planeta.
-      </p>
-      <p>
-        As professoras e seus alunos desenvolveram um projeto de compra e venda em um brechó, com a finalidade de aplicar os conhecimentos sobre educação financeira na prática e mostrar para as crianças, desde cedo, como lidar de forma responsável e segura com dinheiro.
-      </p>
-    </div>
-  </div>
-  <div class="col-md-4 d-flex">
-    <div class="p-3 flex-fill">
-      <p>
-        É importante entender que as facilidades desenvolvidas para a utilização do dinheiro não podem e não devem tornar o cidadão um refém de si mesmo, preso em dívidas adquiridas pelo impulso capitalista, que além de trazer prejuízo para o indivíduo, ainda provoca estragos irreparáveis ao planeta.
-      </p>
-    </div>
-  </div>
-</div>
-
-      <h6 class="creditos">Créditos: João César Pivotto, Júlia Caetano e Luísa Bersano</h6>
-
-      <hr>
-<br>
-<div class="titulo">
-  <h2>Água, para que te quero?</h2>
-</div>
-<hr>
-<div class="row">
-  <div class="col-md-4 d-flex">
-    <div class="p-3 flex-fill">
-      <p>
-        Que a água é fonte de vida, todos sabemos. Mas nos esquecemos de que ela não é uma fonte inesgotável e disponível para ser usada de forma desrespeitosa e irresponsável. Essencial para a natureza e para nosso organismo, e mesmo assim, não nos preocupamos o suficiente para nos mobilizar e criarmos um ambiente sustentável que garanta que as novas gerações não fiquem sem água limpa para manter suas vidas e uma natureza vigorosa.
-      </p>
-      <p>
-        E foi pensando nessa pergunta, “Haverá água quando a gente ficar velho?”, de Fernando Bonassi, que alunos do 3º ano A, conduzidos pela professora Ana Cristiane Alves foram estimulados a refletir sobre o assunto. São eles que podem mudar a história para que a resposta a essa pergunta seja a mais positiva possível. São as novas gerações que terão em suas mãos a palavra final sobre a sobrevivência do planeta, visto que são atitudes, comportamentos e comprometimentos, hoje e no futuro, em fazer a coisa certa, que conseguirão mudar a realidade atual.
-      </p>
-    </div>
-  </div>
-  <div class="col-md-4 d-flex">
-    <div class="p-3 flex-fill">
-      <p>
-        As crianças aprenderam a usar esse líquido precioso de forma sustentável e responsável. Tiveram contato com a água e entenderam a diferença que fazem pequenas atitudes conscientes para a estabilidade da vida. A aluna Helena Panhan do 8º ano entrevistou alguns alunos do 3º ano A, entre eles, seu irmão Vicente.
-      </p>
-      <p>
-        Paralelamente, a professora Giulia Cury apresentou às crianças do 3º ano B a importância das fontes de energias renováveis para a manutenção da vida no futuro. Realizaram um trabalho sobre o uso das fontes de energia, onde elas se originam, quais são renováveis e quais não renováveis. As fontes de energia renováveis são aquelas que se renovam com o passar do tempo, como a energia gerada a partir da água, do sol, dos ventos, entre outros.
-      </p>
-    </div>
-  </div>
-  <div class="col-md-4 d-flex">
-    <div class="p-3 flex-fill">
-      <p>
-        Dentro do mesmo tema, as fontes de energia não renováveis são aquelas que são finitas ou esgotáveis, como o petróleo, o carvão mineral e o gás natural. O trabalho também abordou os impactos ambientais causados pelos seres humanos ou por desastres naturais, como furacões, enchentes, tsunamis, etc. Os recursos naturais água e ar são essenciais para os seres vivos, tanto para se hidratar quanto para simplesmente respirar.
-      </p>
-      <p>
-        Como projeto final, serão apresentadas experiências realizadas pelos alunos sobre os tipos de energias e sobre a poluição das águas. Agora, responda: haverá água quando você for mais velho?
-      </p>
-    </div>
-  </div>
- <h6 class="creditos">Créditos: Helena Vasconcelos Panhan, Pedro Fachini e Pedro Ferreira </h6>
-
-
-
-
-      <div class="titulo">
-        <h2>
-          Sustentabilidade e Meio Ambiente
-        </h2>
-      </div>
-      <hr>
-      <div class="row">
-        <div class="coluna">
-          <p>
-            &ensp; Sustentabilidade e Meio ambiente são tópicos muitos discutidos, e importante, nos dias de hoje. Pensando nisso 
-            as professoras, Carla, Eleusa e Silmara com a turma dos 4º anos A, B e C fizeram um projeto sobre esse tema. <br>
-            &ensp; Dentro do  tema de sustentabilidade pensamos em um conceito de desenvolvimento que não esgota os recursos para 
-            o futuro e a busca pelo equilíbrio entre as necessidades humanas e a preservação dos recursos naturais. Ao longo dos 
-            séculos os humanos usaram de desculpa a modernidade e o progresso para destruir e acabar com os recursos naturais. 
-          </p>
+            <h2>Você lida com dinheiro de forma segura e responsável?</h2>
         </div>
-        <div class="coluna">
-          <p>
-            Atualmente é muito falado sobre sustentabilidade para que todos tenham consciência de que não são recursos infinitos, 
-            como muitos acham, a também muitos estudos científicos sobre o tema, mas isso não significa que não devemos mais evoluir, 
-            nos devemos sim se desenvolver como sociedade, porém sem degradar os recursos naturais. <br>
-            &ensp; Ainda dentro desse tema, temos o meio ambiente, um conjunto de elementos, processos e dinâmicas, físicas, químicas 
-            e biológicas que interagem entre si, de onde retiramos elementos essenciais para nossa sobrevivência, como água, ar, 
-            alimentos e matéria prima, um dos motivos 
-          </p>
+        <hr>
+        <div class="row">
+            <div class="col-md-4">
+                <p>
+                    Com a tecnologia avançada nos dias de hoje, ficou muito mais fácil realizar um pagamento, por exemplo, abrir uma conta em um banco virtual...
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    No Colégio Coeso, os alunos do 2º ano do fundamental I, juntamente com suas professoras Flávia e Vanessa, pensaram em um projeto sobre economia...
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    É importante entender que as facilidades desenvolvidas para a utilização do dinheiro não podem e não devem tornar o cidadão um refém de si mesmo...
+                </p>
+            </div>
         </div>
-        <div class="coluna">
-          <p>
-            pelos quais a sua conservação se faz tão importante. O meio ambiente é importante, também, porque é dele que os seres 
-            humanos retiram os recursos essenciais para a manutenção da vida humana e do funcionamento da sociedade, especialmente 
-            quando se trata do desenvolvimento da economia no mundo. <br>
-            &ensp; De acordo com isso, as professoras do quarto ano, junto com os alunos, fizeram um lixômetro da turma, lixeiras 
-            de coleta seletiva e um filtro caseiro com garrafa pet.
-          </p>
-        </div>
-      </div>
+        <h6 class="creditos">Créditos: João César Pivotto, Júlia Caetano e Luísa Bersano</h6>
+        <hr>
         
-        <center>
-            <h2>Para acessar a págaina de imagens e vídeos clique <a href="imagens.html" id="hyperlink">AQUI</a>.</h2>
-        </center>
-        
+        <div class="titulo">
+            <h2>Água, para que te quero?</h2>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-4">
+                <p>
+                    Que a água é fonte de vida, todos sabemos. Mas nos esquecemos de que ela não é uma fonte inesgotável e disponível para ser usada de forma desrespeitosa e irresponsável...
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    As crianças aprenderam a usar esse líquido precioso de forma sustentável e responsável...
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    Dentro do mesmo tema, as fontes de energia não renováveis são aquelas que são finitas ou esgotáveis...
+                </p>
+            </div>
+        </div>
+        <h6 class="creditos">Créditos: Helena Vasconcelos Panhan, Pedro Fachini e Pedro Ferreira </h6>
+        <hr>
 
-      </main>
+        <div class="titulo">
+            <h2>Sustentabilidade e Meio Ambiente</h2>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-4 coluna">
+                <p>
+                    &ensp; Sustentabilidade e Meio ambiente são tópicos muitos discutidos, e importante, nos dias de hoje...
+                </p>
+            </div>
+            <div class="col-md-4 coluna">
+                <p>
+                    Atualmente é muito falado sobre sustentabilidade para que todos tenham consciência de que não são recursos infinitos...
+                </p>
+            </div>
+            <div class="col-md-4 coluna">
+                <p>
+                    O meio ambiente é importante, também, porque é dele que os seres humanos retiram os recursos essenciais para a manutenção da vida...
+                </p>
+            </div>
+        </div>
 
-        <footer class="bg-light text-white text-center py-3">
+        <div class="text-center">
+            <h2>Para acessar a página de imagens e vídeos clique <a href="imagens.html" id="hyperlink">AQUI</a>.</h2>
+        </div>
+    </main>
+
+    <footer class="bg-light text-white text-center py-3">
         <p>&copy; 2024 Folha Coeso. Todos os direitos reservados.</p>
-        <a href="#ffffff"><img src="imagens/patrocinios/logos em png e reduzidas (1).png" alt="Patrocinador 1" height="500" width="821"></a>
+        <a href="#ffffff">
+            <img src="imagens/patrocinios/logos em png e reduzidas (1).png" alt="Patrocinador 1" class="img-fluid">
+        </a>
     </footer>
 </body>
 </html>
