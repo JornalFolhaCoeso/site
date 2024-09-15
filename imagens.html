@@ -4,187 +4,150 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="static/estilos.css">
-    <link rel="icon" type="ico" href="imagens/logos/logo_coeso.ico">
+    <link rel="icon" type="image/x-icon" href="imagens/logos/logo_coeso.ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
     <title>Imagens</title>
+    <style>
+        body {
+            margin-top: 56px; /* Ajusta o espaço para a navbar fixa */
+        }
+        .section-title {
+            margin: 30px 0;
+            text-align: center;
+        }
+        .section-title h2 {
+            margin: 0;
+        }
+        .image-gallery img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            margin-bottom: 15px;
+        }
+        .text-center p {
+            margin-bottom: 30px;
+        }
+        footer img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
         <!-- Brand/logo -->
         <a class="navbar-brand" href="index.html">
-          <img src="imagens/logos/logo_coeso.png" alt="logo" style="width: 40px;">
+            <img src="imagens/logos/logo_coeso.png" alt="Logo do Colégio Coeso" style="width: 40px;">
         </a>
         
         <!-- Links -->
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="Entrevistas.html">Entrevistas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Artigos.html">Artigos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="entretenimento.html">Entretenimento</a>
-          </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Entrevistas.html">Entrevistas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Artigos.html">Artigos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="entretenimento.html">Entretenimento</a>
+            </li>
         </ul>
-      </nav>
+    </nav>
 
-      <br><br><br>
+    <main class="container mt-5 pt-3">
+        <div class="text-center mb-4">
+            <h1>Imagens</h1>
+        </div>
 
-      <center>
-          <h1>Imagens</h1>
-      </center>
+        <div class="section-title">
+            <h2>Medalhas e Certificados</h2>
+        </div>
+        <div class="image-gallery text-center">
+            <img src="imagens/medalhistas/medalhas_mesa.jpg" alt="Mesa com medalhas e certificados" draggable="false">
+            <img src="imagens/medalhistas/medalhas_mesa2.jpg" alt="Mesa com medalhas e certificados" draggable="false">
+        </div>
 
+        <div class="section-title">
+            <h2>Canguru</h2>
+        </div>
+        <div class="image-gallery text-center">
+            <img src="imagens/medalhistas/canguru/canguru_todos.jpg" alt="Imagem com todos os medalhistas da olimpíada canguru 2023" draggable="false">
+            <p>Todos os alunos medalhistas da olimpíada canguru.</p>
+            <img src="imagens/medalhistas/canguru/canguru_ouro.jpg" alt="Imagem com a medalhista ouro da canguru 2023" draggable="false">
+            <p>Medalhista ouro da canguru</p>
+            <img src="imagens/medalhistas/canguru/canguru_prata.jpg" alt="Imagem com os medalhistas prata da canguru 2023" draggable="false">
+            <p>Medalhistas prata da canguru</p>
+            <img src="imagens/medalhistas/canguru/canguru_bronze.jpg" alt="Imagem com os medalhistas bronze da canguru 2023" draggable="false">
+            <p>Medalhistas bronze da canguru</p>
+            <img src="imagens/medalhistas/canguru/canguru_honraAoMerito.jpg" alt="Imagem com os ganhadores do honra ao mérito" draggable="false">
+            <p>Ganhadores da honra ao mérito da canguru</p>
+        </div>
 
-      <hr>
-      <div class="titulo">
-        <h2 id="texto_medalhistas">
-          Medalhas e certificados
-        </h2>
-      </div>
-      <hr>
-      <center>
-        <img src="imagens/medalhistas/medalhas_mesa.jpg" alt="Mesa com medalhas e certificados" class="imagens_mesa" draggable="false"> 
-        <img src="imagens/medalhistas/medalhas_mesa2.jpg" alt="Mesa com medalhas e certificados" class="imagens_mesa" draggable="false">
-      </center>
-      
-      <hr>
+        <div class="section-title">
+            <h2>Tutor Google</h2>
+        </div>
+        <div class="image-gallery text-center">
+            <img src="imagens/medalhistas/tutor_google/tutor_google1.jpg" alt="Ganhadores do ciclo 3 do Tutor Google" draggable="false">
+            <p>Ganhadores do ciclo 3 do Tutor Google</p>
+            <img src="imagens/medalhistas/tutor_google/tutor_google2.jpg" alt="Ganhadores do ciclo 1 e 2 do Tutor Google" draggable="false">
+            <p>Ganhadores do ciclo 1 e 2 do Tutor Google</p>
+        </div>
 
-      <div class="titulo">
-        <h2 id="texto_medalhistas">
-          Canguru
-        </h2>
-      </div>
-      <hr>
-      <center>
-        <img src="imagens/medalhistas/canguru/canguru_todos.jpg" alt="Imagem com todos os medalhistas da olímpiada canguru 2023" class="imagens_canguru" draggable="false">
-        <br>
-        <p>Todos os alunos medalhistas da olimpíada canguru.</p>
-        <img src="imagens/medalhistas/canguru/canguru_ouro.jpg" alt="Imagem com a medalhista ouro da canguru 2023" class="imagens_canguru" draggable="false">
-        <br>
-        <p>Medalhista ouro da canguru</p>
-        <img src="imagens/medalhistas/canguru/canguru_prata.jpg" alt="Imagem com os medalhistas prata da canguru 2023" class="imagens_canguru" draggable="false">
-        <br>
-        <p>Medalhistas prata da canguru</p>
-        <img src="imagens/medalhistas/canguru/canguru_bronze.jpg" alt="Imagem com os medalhistas bronze da canguru 2023" class="imagens_canguru" draggable="false">
-        <br>
-        <p>Medalhistas bronze da canguru</p>
-        <img src="imagens/medalhistas/canguru/canguru_honraAoMerito.jpg" alt="Imagem com os ganhadores do honra ao mérito" class="imagens_canguru" draggable="false">
-        <br>
-        <p>Ganhadores da honra ao mérito da canguru</p>
-      </center>
+        <div class="section-title">
+            <h2>Toefl</h2>
+        </div>
+        <div class="image-gallery text-center">
+            <img src="imagens/medalhistas/toefl/toefl2.jpg" alt="Alunos que ganharam certificado do Toefl do 5º ano em 2023" draggable="false">
+            <img src="imagens/medalhistas/toefl/toefl4.jpg" alt="Alunos que ganharam certificado do Toefl do 5º ano em 2023" draggable="false">
+            <p>Alunos que ganharam certificado do Toefl do 5º ano</p>
+            <img src="imagens/medalhistas/toefl/toefl3.jpg" alt="Alunos que ganharam certificado do Toefl do 9º ano em 2023" draggable="false">
+            <p>Alunos que ganharam certificado do Toefl do 9º ano</p>
+        </div>
 
-      <hr>
+        <div class="section-title">
+            <h2>ONC - Olímpiada Nacional de Ciências</h2>
+        </div>
+        <div class="image-gallery text-center">
+            <img src="imagens/medalhistas/onc/onc1.jpg" alt="Medalhistas da Onc de 2023" draggable="false">
+            <p>Alunos que ganharam certificado da Onc</p>
+        </div>
 
-      <div class="titulo">
-        <h2 id="texto_medalhistas">
-          Tutor Google
-        </h2>
-      </div>
-      <hr>
-        <center>
-          <img src="imagens/medalhistas/tutor_google/tutor_google1.jpg" alt="Ganhadores do ciclo 3 do Tutor Google" class="imagens_tutor" draggable="false">
-          <br>
-          <p>Ganhadores do ciclo 3 do Tutor Google</p>
-          <img src="imagens/medalhistas/tutor_google/tutor_google2.jpg" alt="Ganhadores do ciclo 1 e 2 do Tutor Google" class="imagens_tutor" draggable="false">
-          <br>
-          <p>Ganhadores do ciclo 1 e 2 do Tutor Google</p>
-        </center>
+        <div class="section-title">
+            <h2>OBA - Olímpiada Brasileira de Astronomia</h2>
+        </div>
+        <div class="image-gallery text-center">
+            <img src="imagens/medalhistas/oba/oba1.jpg" alt="Medalhista ouro da Oba de 2023" draggable="false">
+            <p>Medalhista ouro da Oba</p>
+        </div>
 
-      <hr>
+        <div class="section-title">
+            <h2>OBG - Olímpiada Brasileira de Geografia</h2>
+        </div>
+        <div class="image-gallery text-center">
+            <img src="imagens/medalhistas/obg/obg1.jpg" alt="Medalhistas da Obg de 2023" draggable="false">
+            <p>Medalhistas da Obg</p>
+        </div>
 
-      <div class="titulo">
-        <h2 id="texto_medalhistas">
-          Toefl
-        </h2>
-      </div>
-      <hr>
-      <center>
-        <!-- <img src="../imagens/medalhistas/toefl/toefl1.jpg" alt="" class="imagens_toefl">   ISSO DAQUI NÃO É TOEFL, DESCOBRIR QUAL É A OLIMPÍADA!!!!!-->
-        <img src="imagens/medalhistas/toefl/toefl2.jpg" alt="Alunos que ganharam certificado do Toefl do 5º ano em 2023" class="imagens_toefl" id="toefl1" draggable="false">
-        <img src="imagens/medalhistas/toefl/toefl4.jpg" alt="Alunos que ganharam certificado do Toefl do 5º ano em 2023" class="imagens_toefl" id="toefl1" draggable="false">
-        <br>
-        <p>Alunos que ganharam certificado do Toefl do 5º ano</p>
-        <img src="imagens/medalhistas/toefl/toefl3.jpg" alt="Alunos que ganharam certificado do Toefl do 9º ano em 2023" class="imagens_toefl" id="toefl2" draggable="false">
-        <br>
-        <p>Alunos que ganharam certificado do Toefl do 9º ano</p>
-      </center>
+        <div class="section-title">
+            <h2>S@S</h2>
+        </div>
+        <div class="image-gallery text-center">
+            <img src="imagens/medalhistas/s@s/s@s1.jpg" alt="Alunos que ganharam certificado da s@s em 2023" draggable="false">
+        </div>
 
-      <hr>
+        <div class="section-title">
+            <h2>OBMEP Mirim</h2>
+        </div>
+        <div class="image-gallery text-center">
+            <img src="imagens/medalhistas/obmep_mirim/obmep_mirim1.jpg" alt="Alunos que ganharam certifiado da OBMEP mirim em 2023" draggable="false">
+            <img src="imagens/medalhistas/obmep_mirim/obmep_mirim2.jpg" alt="Alunos que ganharam certifiado da OBMEP mirim em 2023" draggable="false">
+            <p>Alunos que ganharam certificado da OBMEP mirim</p>
+        </div>
+    </main>
 
-      <div class="titulo">
-        <h2 id="texto_medalhistas">
-          ONC - Olímpiada Nacional de Ciências
-        </h2>
-      </div>
-      <hr>
-      <center>
-        <img src="imagens/medalhistas/onc/onc1.jpg" alt="Medalhistas da Onc de 2023" class="imagens_onc" draggable="false">
-        <br>
-        <p>Alunos que ganharam certificado da Onc</p>
-      </center>
-
-      <hr>
-
-      <div class="titulo">
-        <h2 id="texto_medalhistas">
-          OBA - Olímpiada Brasileira de Astronomia
-        </h2>
-      </div>
-      <hr>
-      <center>
-        <img src="imagens/medalhistas/oba/oba1.jpg" alt="Medalhista ouro da Oba de 2023" class="imagens_oba" draggable="false">
-        <br>
-        <p>Medalhista ouro da Oba<p>
-      </center>
-
-      <hr>
-      
-      <div class="titulo">
-        <h2 id="texto_medalhistas">
-          OBG - Olímpiada Brasileira de Geografia
-        </h2>
-      </div>
-      <hr>
-      <center>
-        <img src="imagens/medalhistas/obg/obg1.jpg" alt="Medalhistas da Obg de 2023" class="imagens_obg" draggable="false">
-        <br>
-        <p>Medalhistas da Obg</p>
-      </center>
-
-      <hr>
-
-      <div class="titulo">
-        <h2 id="texto_medalhistas">
-          S@S
-        </h2>
-      </div>
-      <hr>
-      <center>
-          <img src="imagens/medalhistas/s@s/s@s1.jpg" alt="Alunos que ganharam certificado da s@s em 2023" class="imagens_sos" draggable="false">
-      </center>
-    
-      <hr>
-
-      <div class="titulo">
-        <h2 id="texto_medalhistas">
-          OBMEP mirim
-        </h2>
-      </div>
-      <hr>
-      <center>
-        <img src="imagens/medalhistas/obmep_mirim/obmep_mirim1.jpg" alt="Alunos que ganharam certifiado da OBMEP mirim em 2023" class="imagens_obmep_mirim" draggable="false">
-        <img src="imagens/medalhistas/obmep_mirim/obmep_mirim2.jpg" alt="Alunos que ganharam certifiado da OBMEP mirim em 2023" class="imagens_obmep_mirim" draggable="false">
-        <br>
-        <p>Alunos que ganharam certificado da OBMEP mirim</p>
-      </center>
-      <footer class="bg-light text-white text-center py-3">
+    <footer class="bg-light text-white text-center py-3">
         <p>&copy; 2024 Folha Coeso. Todos os direitos reservados.</p>
-        <a href="#ffffff"><img src="imagens/patrocinios/logos em png e reduzidas (1).png" alt="Patrocinador 1" height="500" width="821"></a>
-    </footer>
-
-</body>
-</html>
+        <a href="#ffffff
